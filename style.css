@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+header {
+    position: relative;
+    background-color: #14213d;
+    color: white;
+    padding: 40px 0;
+    font-size: 14px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.socials {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.socials a img{
+    margin-left: 10px;
+}
+
+.menu {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translateY(-50%);
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
