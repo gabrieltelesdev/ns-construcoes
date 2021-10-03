@@ -70,8 +70,9 @@ header {
     border-radius: 10px;
 }
 
-/* BANNER */
 
+
+/* BANNER */
 
 .banner {
     background-image: url(./assets/images/banner.webp);
@@ -80,6 +81,7 @@ header {
 }
 
 .bannerTitle {
+    width: 100%;
     padding: 150px 0;
 }
 
@@ -106,6 +108,9 @@ header {
     font-weight: 500;
 }
 
+
+
+
 /*SERVIÇOS*/
 
 .servicos {
@@ -115,8 +120,17 @@ header {
     border-bottom:black solid 5px;
 }
 
-.alvenaria {
-    display: inline-block;
+.servicos h1 {
+    font-weight: bold;
+    font-size: 48px;
+    text-shadow: 5px 5px 5px #0000004D;
+}
+
+.servicos h2 {
+    font-weight: 900;
+    font-size: 48px;
+    margin-top: 100px;
+    text-shadow: 5px 5px 5px #0000004D;
 }
 
 .trabalhos {
@@ -127,35 +141,50 @@ header {
     margin-top: 10px;
 }
 
-.trabalhos img {
-    display: inline-block;
-    width: 50%;
-    height: 464px;
+.alvenaria {
+    margin-bottom: 100px;
+    box-shadow: 4px 4px 4px #000000c4;
+    border: black solid 0.5px;
 }
 
-.box {
-    height: 464px;
-    width: 50%;
-    padding: 150px 100px;
-    text-align: center;
-    float: left;
-    text-align: center;
-    
+.alvBg {
+    width: 100%;
+    height: 400px;
+    background-image: url(./assets/images/alv1.png);
+    background-size: cover;
 }
 
 .pisos {
-    display: inline-block;
-    
+    margin-bottom: 100px;
+    box-shadow: 4px 4px 4px #000000c4;
+    border: black solid 0.5px;
 }
 
-.pisos img {
-    float: left;
+.pisoBg {
+    width: 100%;
+    height: 400px;
+    background-image: url(./assets/images/alv2.png);
+    background-size: cover;
 }
 
 .pintura {
-    display:inline-block;
-    
+    box-shadow: 4px 4px 4px #000000c4;
+    border: black solid 0.5px;
 }
+
+.pinturaBg {
+    width: 100%;
+    height: 400px;
+    background-image: url(./assets/images/alv3.png);
+    background-size: cover;
+}
+
+.box {
+    width: 100%;
+    padding: 150px 150px;
+    text-align: center;    
+}
+
 
 .black {
     background-color: black;
@@ -163,11 +192,53 @@ header {
 }
 
 .white {
-    float:right;
     background-color: #E5E5E5;
 }
 
 
 
 
+/* FOOTER */
 
+footer {
+    position: relative;
+    background-color: #14213d;
+    color: white;
+    padding: 60px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.contatos1 {
+    width: 200px;
+    display: inline-block;
+}
+
+.contatos1 a {
+    display: block;
+    margin-top: 10px;
+}
+
+.logoFooter {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contatos2 {
+    float: right;
+    
+}
+
+.contatos2 a {
+    display: block;
+    margin-top: 10px;
+}
+
+.icon {
+    margin-right: 10px;
+}
