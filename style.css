@@ -129,10 +129,16 @@ header {
 
 .servicos {
     background-color: #fca311;
-    background-image: linear-gradient(160deg, #fca311 25%, #fdae43 59%, #eeb652 88%);
+    background-image: linear-gradient(160deg, #fca211e5 25%, #fdaf43f6 59%, #eeb552e3 88%);
     padding: 100px 0;
     border-top: black solid 5px;
     border-bottom:black solid 5px;
+}
+
+.containerServicos {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .servicos h1 {
@@ -197,7 +203,7 @@ header {
 
 .box {
     width: 100%;
-    padding: 150px 150px;
+    padding: 100px 100px;
     text-align: center;    
 }
 
@@ -299,5 +305,90 @@ footer a {
         display: block;
         padding: 15px;
     }
+
+}
+
+
+@media screen and (max-width: 713px) {
+    .bannerWrap {
+        max-width: 100%;
+    }
+    
+    .bannerTitle {
+        width: 100%;
+        padding: 100px 0;
+    }
+
+    .bannerTitle h1 {
+        font-size: 28px;
+        padding: 50px;
+    }
+    
+
+    .bannerTitle p {
+        font-size: 18px;
+        background: rgba(0, 0, 0, 0.45);
+        padding: 50px;
+        margin-top: 25px;
+        line-height: 30px;
+    }
+
+    .containerServicos {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .servicos {
+        padding: 50px 0;
+    }
+
+    .servicos h1 {
+        font-size: 28px;
+    }
+
+    .servicos h2 {
+        font-size: 30px;
+        margin-top: 100px;
+        text-shadow: 5px 5px 5px #0000004D;
+    }
+
+    .trabalhos {
+        max-width: 80%;
+        margin: 50px auto;
+    }
+
+    footer {
+        padding: 50px 0;
+    }
+
+    .contatos1 {
+        width: 200px;
+        display: inline-block;
+    }
+    
+    .contatos1 a {
+        font-size: 12px;
+    }
+    
+    .logoFooter {
+        width: 80px;
+    }
+    
+    .contatos2 {
+        float: right;
+        
+    }
+    
+    .contatos2 a {
+        font-size: 12px;
+    }
+    
+    .icon {
+        margin-right: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 515px) {
 
 }
