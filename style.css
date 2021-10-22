@@ -143,24 +143,27 @@ header {
 
 .servicos h1 {
     font-weight: bold;
-    font-size: 38px;
+    font-size: 36px;
     text-shadow: 5px 5px 5px #0000004D;
 }
 
 .servicos h2 {
     font-weight: 900;
     font-size: 36px;
-    margin-top: 100px;
     text-shadow: 5px 5px 5px #0000004D;
+}
+
+.titleServicos {
+    margin: 0 60px;
 }
 
 .trabalhos {
     max-width: 80%;
-    margin: 100px auto 0;
+    margin: 100px auto;
 }
 
 .trabalhos p {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .alvenaria {
@@ -232,6 +235,13 @@ footer {
 footer a {
     text-decoration: none;
     color: white;
+}
+
+.wrapFooter {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+
 }
 
 .contatos1 {
@@ -327,7 +337,6 @@ footer a {
 
     .bannerTitle p {
         font-size: 18px;
-        background: rgba(0, 0, 0, 0.45);
         padding: 50px;
         margin-top: 25px;
         line-height: 30px;
@@ -343,13 +352,16 @@ footer a {
     }
 
     .servicos h1 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .servicos h2 {
         font-size: 30px;
-        margin-top: 100px;
         text-shadow: 5px 5px 5px #0000004D;
+    }
+
+    .box p {
+        text-align: justify;    
     }
 
     .trabalhos {
@@ -361,22 +373,16 @@ footer a {
         padding: 50px 0;
     }
 
-    .contatos1 {
-        width: 200px;
-        display: inline-block;
-    }
     
     .contatos1 a {
         font-size: 12px;
     }
     
     .logoFooter {
-        width: 80px;
-    }
-    
-    .contatos2 {
-        float: right;
-        
+        margin: 0;
+        padding-top: 50px;
+        position: relative;
+        display: block;
     }
     
     .contatos2 a {
@@ -390,5 +396,46 @@ footer a {
 }
 
 @media screen and (max-width: 515px) {
+    .box {
+        width: 100%;
+        padding: 50px 50px;
+        text-align: center;    
+    }
 
+    servicos h1 {
+        font-size: 22px;
+    }
+
+    .servicos h2 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    
+    .footer {
+        text-align: center;
+    }
+
+    .logoFooter {
+        width: 120px;
+    }
+
+    .wrapFooter {
+        width: 50%;
+        text-align: center;
+    }
+
+    .contatos1 {
+        display:block;
+        width: 100%;
+        float: none;
+    }
+
+    .contatos2 {
+        margin-top: 20px;
+        display:block;
+        width: 100%;
+        float: none;
+    }
 }
