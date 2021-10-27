@@ -13,6 +13,38 @@ em {
     font-style: normal;
 }
 
+.super-infoBg {
+    position: relative;
+    padding: 15px;
+    background-color: #0d1629;
+    color: white;
+}
+
+.super-info {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.super-info a {
+    color: white;
+    float: right;
+    margin: 10px 10px;
+    font-size: 14px;
+}
+
+.super-info a:first-child {
+    float: left;
+}
+
+.contactInfo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+
+
 header {
     overflow: hidden;
     position: relative;
@@ -40,6 +72,7 @@ header {
 }
 
 .socials {
+    width: 33.3%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -50,6 +83,20 @@ header {
 .socials a img{
     margin-left: 10px;
     padding: 10px;
+}
+
+.socials #whp {
+    display: inline-block;
+}
+
+.socials span {
+    margin-right: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .socials img:hover {
@@ -319,6 +366,7 @@ footer a {
 }
 
 
+
 @media screen and (max-width: 713px) {
     .bannerWrap {
         max-width: 100%;
@@ -433,9 +481,26 @@ footer a {
     }
 
     .contatos2 {
-        margin-top: 20px;
+        
         display:block;
         width: 100%;
         float: none;
     }
+}
+
+@media screen and (max-width: 380px) {
+    .super-info {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.super-info a {
+    margin: 5px;
+    font-size: 12px;
+}
+
+.icon {
+    width: 14px;
+}
 }
