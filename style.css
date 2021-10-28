@@ -29,7 +29,6 @@ em {
 .super-info a {
     color: white;
     float: right;
-    margin: 10px 10px;
     font-size: 14px;
 }
 
@@ -50,7 +49,7 @@ header {
     position: relative;
     background-color: #14213d;
     color: white;
-    padding: 40px 0;
+    padding: 20px 0;
     font-size: 14px;
 }
 
@@ -68,51 +67,17 @@ header {
 
 .logo {
     display: inline-block;
-    padding: 5px;
-}
-
-.socials {
-    width: 33.3%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.socials a img{
-    margin-left: 10px;
-    padding: 10px;
-}
-
-.socials #whp {
-    display: inline-block;
-}
-
-.socials span {
-    margin-right: 20px;
-    padding: 10px;
-    text-decoration: none;
-    color: white;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.socials img:hover {
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.116) 15%, rgba(255, 255, 255, 0.226) 44%, rgba(255, 255, 255, 0.315) 73%, rgba(255, 255, 255, 0.39) 100%);
-    border-radius: 10px;
 }
 
 .menu {
     float: right;
-    padding: 15px;
+    padding: 15px 0;
     text-align: center;
 }
 
 .menu li {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 20px;
     text-transform: uppercase;
     padding: 10px;
 }
@@ -319,7 +284,7 @@ footer a {
 }
 
 .icon {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 /*Media Queries*/
@@ -343,13 +308,8 @@ footer a {
         padding: 0;
     }
 
-    .socials {
-        position: relative;
-        display: block;
-        margin: 15px 0;
-        left: 0;
-        top: 0;
-        transform: translate(0, 0);
+    .menu li {
+        margin-left: 0px;
     }
 
     .menu {
@@ -435,10 +395,6 @@ footer a {
     
     .contatos2 a {
         font-size: 12px;
-    }
-    
-    .icon {
-        margin-right: 10px;
     }
     
 }
